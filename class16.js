@@ -50,4 +50,6 @@ function add (a, b) {
     }
 }
 
-add(10,20)()
+// add(10, 20)()
+// var res = add(10, 20);
+// res()
