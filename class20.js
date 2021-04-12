@@ -52,3 +52,14 @@
 
 // var res = factorial(4);
 // console.log(res);
+
+// 4567 
+
+function sumOfDigits(num) {
+    if(num === 0) return 0;
+
+    return num%10 + sumOfDigits(parseInt(num/10));
+};
+
+var res = sumOfDigits(1002);
+console.log(res);
