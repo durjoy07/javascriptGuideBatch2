@@ -78,3 +78,13 @@
 // Function 
 // RegExp 
 
+// first loop
+
+var j= 1;
+for(var i=1; i<j; i++){
+
+    console.log(i)
+}
+
+
+//second loop
