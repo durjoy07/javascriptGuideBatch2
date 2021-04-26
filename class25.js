@@ -1,10 +1,10 @@
-// var obj = {
-//     message: "hello everybody!!",
-//     name: "Next topper",
-//     printName: function() {
-//         console.log(this.name);
-//     }
-// }
+var obj = {
+    message: "hello everybody!!",
+    name: "Next topper",
+    printName: function() {
+        console.log(this.name);
+    }
+}
 // obj.printName()
 
 // var obj1 = {
@@ -16,11 +16,11 @@
 //     console.log(n1, n2, n3);
 // }
 
-// var myParams = ["Next Topper", 10, 20, 30]
-// saySomething.call(obj1, "Next Topper", 10, 20, 30)
-//saySomething.apply(obj1, myParams)
+ //var myParams = ["Next Topper", 10, 20, 30]
+//saySomething.call(obj, "Next Topper", 10, 20, 30)
+//saySomething.apply(obj, myParams)
 
-// var newSomething = saySomething.bind(obj1, "Next Topper", 10, 20, 30);
+// var newSomething = saySomething.bind(obj, "Next Topper", 10, 20, 30);
 // newSomething();
 
 
@@ -38,16 +38,16 @@
 // myColors.printColors()
 
 
-const myColors = {
-    message: "I like",
-    colors: ['blue', 'black', 'white'],
-    printColors() {
-        this.colors.map((ele, index) => {
-            console.log(this.message, ele, "color");
-        })
-    }
-}
-myColors.printColors()
+// const myColors = {
+//     message: "I like",
+//     colors: ['blue', 'black', 'white'],
+//     printColors() {
+//         this.colors.map((ele, index) => {
+//             console.log(this.message, ele, "color");
+//         })
+//     }
+// }
+// myColors.printColors()
 
 // var colors = ['blue', 'black', 'white'];
 // colors.map((ele, index)=> {
