@@ -25,6 +25,11 @@
 // arr.fill(1, 0, 3)
 // console.log(arr);
 
+// var arr = [];
+// //arr[15] = 0
+// //  arr.length = 10;
+//  console.log(arr.length);
+
 // find 
 
 // var arr1 = [10, 12, 14, 16, 18, 21, 22];
