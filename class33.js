@@ -46,7 +46,7 @@
 // var res = re.test('abkdjfab');
 // console.log(res);
 
-var re = /a{2,2}/g;
+var re = /a{2}/g;
 var text = 'jasdiflkj aa kdsjfl aaa kdfj a k aaa kdflkj aaa aaaaa';
 var res = text.match(re);
 console.log(res);
